@@ -1,0 +1,27 @@
+{
+  "name": "amqp-logger",
+  "version": "0.0.0",
+  "description": "consumes logging messages and saves it",
+  "main": "lib/bootstrap.js",
+  "dependencies": {
+    "amqp-connect": "0.0.1",
+    "application-initializer": "0.0.2",
+    "bluebird": "^2.3.0",
+    "lodash": "^2.4.1",
+    "postgres-connect": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johndoe90/amqp-logger.git"
+  },
+  "author": "Phillip Friedrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johndoe90/amqp-logger/issues"
+  },
+  "homepage": "https://github.com/johndoe90/amqp-logger"
+}
